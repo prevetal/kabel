@@ -1,0 +1,463 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .block_title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .breadcrumbs
+    {
+        display: none;
+    }
+
+
+
+    .page_content
+    {
+        margin-top: 5px;
+        padding-top: 20px;
+
+        border-top: 1px solid #e9e9e9;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .top
+    {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+    }
+
+    header .top,
+    header .time,
+    header .langs
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding-left: 0;
+
+        background: none;
+    }
+
+
+    header .menu
+    {
+        top: 76px;
+
+        padding: 10px 20px;
+    }
+
+    header .mob_menu_link.active
+    {
+        top: 4px;
+    }
+
+    header .mob_menu_link.active span
+    {
+        background: #fff;
+    }
+
+
+    header .callback_link
+    {
+        padding-left: 31px;
+
+        background-position: 3px 50%;
+    }
+
+
+    header .search
+    {
+        margin-bottom: 15px;
+    }
+
+    header .search form .input,
+    header .search form .submit_btn
+    {
+        height: 36px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside .filter .title
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    aside .filter .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    aside .filter input[type=checkbox] + label
+    {
+        padding-left: 22px;
+    }
+
+    aside .filter input[type=checkbox] + label:before
+    {
+        left: 0;
+    }
+
+
+    aside .filter .show_link
+    {
+        font-size: 14px;
+        line-height: 38px;
+
+        top: -39px;
+
+        min-width: 140px;
+        height: 40px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .video_block
+    {
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .main_slider .info .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    .cats_wall .item .thumb,
+    .cats_wall .item:hover .thumb
+    {
+        height: auto;
+    }
+
+
+
+    .stats .item
+    {
+        width: 100%;
+    }
+
+
+
+    .advanatges .item,
+    .articles .item_wrap,
+    .cats_wall .item_wrap
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .cart_info table td.thumb
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .cart_info table td.name
+    {
+        width: 100%;
+        padding: 0 10px 15px;
+
+        text-align: center;
+    }
+
+    .cart_info table td.price
+    {
+        line-height: 42px;
+
+        padding-right: 10px;
+    }
+
+    .cart_info table td.amount .unit
+    {
+        display: none;
+    }
+
+    .cart_info table td.amount .box
+    {
+        width: 129px;
+    }
+
+    .cart_info table td.amount .input
+    {
+        font-size: 12px;
+    }
+
+
+
+    .cart_info .bottom a
+    {
+        font-size: 15px;
+
+        width: 100%;
+        min-width: 0;
+    }
+
+
+
+    .cats_wall.sub_cats .item_wrap
+    {
+        width: calc(50% - 20px);
+    }
+
+    .cats_wall.sub_cats .item .thumb
+    {
+        height: 110px;
+    }
+
+
+
+    .products .product .info
+    {
+        line-height: 20px;
+    }
+
+    .products .product .links a
+    {
+        width: 100%;
+    }
+
+    .products .product .links a + a
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    .product_info .data .name
+    {
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    .product_info .data .val
+    {
+        width: 100%;
+    }
+
+
+
+    .product_info .tabs li
+    {
+        width: 100%;
+    }
+
+    .product_info .tabs li + li:before
+    {
+        display: none;
+    }
+
+
+
+    .product_info .filter .col
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .product_info .sizes .product .name
+    {
+        width: 100%;
+    }
+
+
+
+
+    .articles .slide .item .info,
+    .articles .slide .item:hover .info
+    {
+        padding: 20px 35px;
+    }
+
+
+
+    .gallery .item
+    {
+        line-height: 20px;
+    }
+
+
+
+    .faq .item .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .consult_block .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .consult_block .form .lines .line
+    {
+        width: calc(100% - 9px);
+    }
+
+    .consult_block .form .submit
+    {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+
+    .form .line.grid .name
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .form .line.grid .field
+    {
+        width: 100%;
+    }
+
+
+
+    .text_block
+    {
+        line-height: normal;
+    }
+
+    .text_block h2
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .text_block h4
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text_block h5
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .links
+    {
+        display: none;
+    }
+
+
+    footer .contacts
+    {
+        font-size: 15px;
+        line-height: 22px;
+
+        width: 100%;
+    }
+
+
+
+    footer .subscribe
+    {
+        padding: 20px 25px;
+    }
+
+    footer .langs
+    {
+        margin-top: 20px;
+        padding-left: 25px;
+    }
+
+
+    footer .bottom a
+    {
+        width: 100%;
+    }
+
+    footer .bottom a + a
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .modal
+    {
+        padding: 25px;
+    }
+
+    .modal_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .fancybox-close-small
+    {
+        top: 0;
+        right: 0;
+
+        width: 40px;
+        height: 40px;
+    }
+}

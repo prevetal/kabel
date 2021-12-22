@@ -1,0 +1,276 @@
+@media (max-width: 1209px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo a + a
+    {
+        margin-left: 30px;
+    }
+
+
+    header .search form
+    {
+        width: 315px;
+    }
+
+
+    header .menu .menu_item:hover a.toch_link + .sub_menu
+    {
+        display: none;
+    }
+
+
+    header.fixed .menu .menu_item > a
+    {
+        font-size: 14px;
+    }
+
+    header.fixed .menu .sep
+    {
+        margin: 0 15px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        width: 290px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .cats_wall .grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .cats_wall .item_wrap
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .cats_wall.sub_cats .item_wrap
+    {
+        width: calc(16.666% - 20px);
+    }
+
+    .cats_wall.sub_cats .item
+    {
+        font-size: 13px;
+    }
+
+    .cats_wall.sub_cats .item .name
+    {
+        padding: 10px;
+    }
+
+
+
+    .information .item .thumb:before,
+    .information .item .thumb:after
+    {
+        display: none;
+    }
+
+
+
+    .stats .item .icon
+    {
+        display: flex;
+
+        width: 100%;
+        height: 60px;
+        margin: 0 auto 15px;
+        padding: 0;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .stats .item .info
+    {
+        width: 100%;
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+    .stats .sep
+    {
+        height: 131px;
+    }
+
+
+
+    .advanatges .grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .advanatges .item
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .articles .grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .articles .item_wrap
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .articles .item .info
+    {
+        padding: 20px;
+    }
+
+    .articles .item:hover .info
+    {
+        padding: 20px 30px;
+    }
+
+
+
+    .product_info .filter .form
+    {
+        margin-left: -20px;
+    }
+
+    .product_info .filter .col
+    {
+        width: calc(25% - 20px);
+        margin-left: 20px;
+    }
+
+    .product_info .filter .form .submit_btn
+    {
+        padding: 0 15px;
+    }
+
+    .product_info .filter .form .reset_btn
+    {
+        font-size: 15px;
+    }
+
+
+    .product_info .sizes .items .col
+    {
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .product_info .sizes .items .col + .col
+    {
+        padding-left: 19px;
+    }
+
+    .product_info .sizes .product .name
+    {
+        width: calc(100% - 249px);
+    }
+
+    .product_info .sizes .product .buy_link
+    {
+        width: 57px;
+        margin-left: 20px;
+    }
+
+    .product_info .sizes .product .success
+    {
+        right: 77px;
+    }
+
+
+
+    .product_info .documents .item
+    {
+        width: calc(20% - 41px);
+    }
+
+
+
+    .consult_block .form
+    {
+        width: 550px;
+    }
+
+
+
+    .certs .grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .certs .item
+    {
+        width: calc(20% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .content
+    {
+        width: calc(100% - 320px);
+        padding-top: 0;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .subscribe
+    {
+        width: 290px;
+        padding: 30px;
+    }
+
+    footer .subscribe form
+    {
+        width: calc(100% - 50px);
+    }
+
+
+    footer .langs
+    {
+        padding-left: 30px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
