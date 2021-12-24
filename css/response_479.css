@@ -26,6 +26,24 @@
     }
 
 
+    .owl-dots
+    {
+        height: 19px;
+        padding: 5px 8px;
+    }
+
+    .owl-dot
+    {
+        width: 9px;
+        height: 9px;
+    }
+
+    .owl-dot + .owl-dot
+    {
+        margin-left: 6px;
+    }
+
+
 
     /*---------------
         Header
@@ -150,10 +168,77 @@
 
 
 
-    .main_slider .info .title
+    .main_slider .slide .img
     {
-        font-size: 22px;
+        height: 231px;
+    }
+
+
+    .main_slider .slide .btn
+    {
+        font-size: 14px;
+        line-height: 32px;
+
+        bottom: 34px;
+
+        width: 136px;
+        height: 32px;
+    }
+
+
+    .main_slider .owl-carousel .owl-nav .owl-prev,
+    .main_slider .owl-carousel .owl-nav .owl-next
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+    .main_slider .owl-carousel .owl-nav .owl-prev
+    {
+        left: 6px;
+    }
+
+    .main_slider .owl-carousel .owl-nav .owl-next
+    {
+        right: 6px;
+    }
+
+    .owl-carousel .owl-nav .owl-prev:before,
+    .owl-carousel .owl-nav .owl-next:before
+    {
+        left: 5px;
+
+        width: 10px;
+        height: 10px;
+
+        border-width: 2px;
+    }
+
+    .owl-carousel .owl-nav .owl-next:before
+    {
+        left: -5px;
+    }
+
+
+
+    .special_offer
+    {
+        padding: 0;
+    }
+
+    .special_offer .title
+    {
+        font-size: 20px;
         line-height: 26px;
+
+        padding-bottom: 6px;
+    }
+
+
+    .special_offer .product .thumb
+    {
+        height: auto;
+        padding-bottom: 88%;
     }
 
 

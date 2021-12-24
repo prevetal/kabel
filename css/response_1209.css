@@ -49,9 +49,32 @@
 
 
 
-    /*---------------
+    /*------------------
         Main section
-    ---------------*/
+    ------------------*/
+    .first_section
+    {
+        margin-bottom: 56px;
+        padding: 0;
+    }
+
+
+
+    .main_slider
+    {
+        width: calc(100% - 353px);
+        margin-left: 20px;
+    }
+
+
+
+    .special_offer
+    {
+        margin-right: 20px;
+    }
+
+
+
     .cats_wall .grid
     {
         margin-bottom: -20px;

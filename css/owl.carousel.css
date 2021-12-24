@@ -263,39 +263,63 @@
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next
 {
+    color: #236630;
+
     position: absolute;
     z-index: 99;
-    bottom: 97px;
+    top: 0;
+    bottom: 0;
 
     overflow: visible;
 
-    width: 42px;
-    height: 39px;
+    width: 56px;
+    height: 56px;
+    margin: auto;
 
-    transition: opacity .2s linear;
     text-indent: -9999px;
 
-    opacity: .78;
+    opacity: 1;
+    border-radius: 50%;
+    background: rgba(255,255,255,.2);
 }
 
 .owl-carousel .owl-nav .owl-prev
 {
-    left: 50%;
-
-    background: url(../images/ic_slider_prev.png) 50% 50% no-repeat;
+    left: 10px;
 }
 
 .owl-carousel .owl-nav .owl-next
 {
-    right: 50%;
-
-    background: url(../images/ic_slider_next.png) 50% 50% no-repeat;
+    right: 10px;
 }
 
-.owl-carousel .owl-nav .owl-prev:hover,
-.owl-carousel .owl-nav .owl-next:hover
+.owl-carousel .owl-nav .owl-prev:before,
+.owl-carousel .owl-nav .owl-next:before
 {
-    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 8px;
+
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    margin: auto;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-top: 3px solid;
+    border-left: 3px solid;
+}
+
+.owl-carousel .owl-nav .owl-next:before
+{
+    left: -8px;
+
+    transform: rotate(-225deg);
 }
 
 
@@ -346,12 +370,9 @@
     margin-left: -3px;
 
     content: '';
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
 
+    border: none;
     border-top: 1px solid #ababab;
     border-left: 1px solid #ababab;
 }
@@ -370,12 +391,9 @@
     margin-right: -3px;
 
     content: '';
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
 
+    border: none;
     border-right: 1px solid #ababab;
     border-bottom: 1px solid #ababab;
 }
@@ -415,14 +433,25 @@
 .owl-dots
 {
     position: absolute;
-    bottom: 113px;
+    bottom: 0;
     left: 50%;
 
+    display: flex;
+
     width: auto;
-    height: 6px;
+    height: 37px;
+    padding: 12px 18px;
 
     transform: translateX(-50%);
     text-align: center;
+
+    border-radius: 4px;
+    background: rgba(255,255,255,.2);
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
 }
 
 .owl-dot
@@ -431,26 +460,27 @@
 
     display: inline-block;
 
-    width: 6px;
-    height: 6px;
+    width: 14px;
+    height: 14px;
 
     transition: .2s linear;
     vertical-align: top;
 
-    border: 1px solid #178a2d;
+    opacity: .5;
+    border: 1px solid #fe8d17;
     border-radius: 50%;
-    background: #d5d5d5;
+    background: #fff;
 }
 
 .owl-dot + .owl-dot
 {
-    margin-left: 11px;
+    margin-left: 10px;
 }
 
 .owl-dot:hover,
 .owl-dot.active
 {
-    border-color: #f58125;
-    background: #f58125;
-    box-shadow: 0 0 0 2px #178a2d, 0 0 0 3px #f58125;
+    opacity: 1;
+    border-color: #fe8d17;
+    background: #fe8d17;
 }

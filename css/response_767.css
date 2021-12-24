@@ -176,16 +176,19 @@
     /*---------------
         Main section
     ---------------*/
-    .main_slider .img
+    .first_section
     {
-        display: none;
+        margin-bottom: 40px;
     }
 
-    .main_slider .info
-    {
-        width: 100%;
 
-        text-align: center;
+    .main_slider .slide .btn
+    {
+        right: 0;
+        bottom: 60px;
+        left: 0;
+
+        margin: auto;
     }
 
 
