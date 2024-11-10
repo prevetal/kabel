@@ -2097,6 +2097,35 @@ aside .filter .reset_btn:hover
 }
 
 
+.articles .swiper
+{
+    overflow: visible !important;
+}
+
+
+.articles .swiper-slide
+{
+    position: relative;
+
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.articles .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
 .articles .slider
 {
     width: calc(100% + 10px);
@@ -2122,7 +2151,7 @@ aside .filter .reset_btn:hover
 }
 
 
-.articles .grid
+/* .articles .grid
 {
     display: flex;
     align-content: stretch;
@@ -2132,17 +2161,19 @@ aside .filter .reset_btn:hover
 
     margin-bottom: -33px;
     margin-left: -33px;
-}
+} */
+
 
 .articles .item_wrap
 {
     position: relative;
     z-index: 1;
 
-    width: calc(25% - 33px);
+    /* width: calc(25% - 33px);
     margin-bottom: 33px;
-    margin-left: 33px;
+    margin-left: 33px; */
 }
+
 
 .articles .item
 {

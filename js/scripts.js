@@ -126,6 +126,55 @@ $(function () {
 	})
 
 
+	// Articles slider
+	const articlesSliders = [],
+		articles = document.querySelectorAll('.articles .swiper')
+
+	articles.forEach((el, i) => {
+		el.classList.add('articles_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 10,
+					slidesPerView: 2,
+					slidesPerGroup: 4,
+					grid: {
+						rows: 2
+					}
+				},
+				480: {
+					spaceBetween: 10,
+					slidesPerView: 2
+				},
+				768: {
+					spaceBetween: 20,
+					slidesPerView: 2
+				},
+				1024: {
+					spaceBetween: 20,
+					slidesPerView: 3
+				},
+				1280: {
+					spaceBetween: 20,
+					slidesPerView: 4
+				}
+			}
+		}
+
+		articlesSliders.push(new Swiper('.articles_s' + i, options))
+	})
+
+
 	// Галерея
 	$('.gallery .slider').owlCarousel({
 		loop: true,

@@ -259,10 +259,44 @@
 
 
     .advanatges .item,
-    .articles .item_wrap,
+    /* .articles .item_wrap, */
     .cats_wall .item_wrap
     {
         width: calc(100% - 20px);
+    }
+
+
+
+    .articles .swiper
+    {
+        height: 542px;
+    }
+
+
+    .articles .swiper-slide
+    {
+        height: 266px;
+    }
+
+
+    .articles .item .info,
+    .articles .item:hover .info
+    {
+        height: 220px;
+        padding: 12px;
+    }
+
+
+    .articles .item .title
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .articles .item .bottom
+    {
+        padding: 10px;
     }
 
 

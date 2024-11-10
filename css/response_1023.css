@@ -263,10 +263,10 @@
         line-height: 21px;
     }
 
-    .articles .item_wrap
+    /* .articles .item_wrap
     {
         width: calc(50% - 20px);
-    }
+    } */
 
     .articles .item .info
     {

@@ -157,18 +157,20 @@
 
 
 
-    .articles .grid
+    /* .articles .grid
     {
         margin-bottom: -20px;
         margin-left: -20px;
     }
+
 
     .articles .item_wrap
     {
         width: calc(25% - 20px);
         margin-bottom: 20px;
         margin-left: 20px;
-    }
+    } */
+
 
     .articles .item .info
     {
