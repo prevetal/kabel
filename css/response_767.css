@@ -46,10 +46,10 @@
 
     header .search
     {
+        order: 2;
+
         width: 100%;
         margin-bottom: 10px;
-
-        order: 2;
     }
 
     header .search_link

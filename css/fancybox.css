@@ -112,7 +112,6 @@ body.compensate-for-scrollbar
 
 .fancybox-infobar
 {
-    color: #ccc;
     font-size: 13px;
     line-height: 44px;
 
@@ -128,6 +127,8 @@ body.compensate-for-scrollbar
         -ms-user-select: none;
             user-select: none;
     pointer-events: none;
+
+    color: #ccc;
 
     -webkit-font-smoothing: subpixel-antialiased;
     mix-blend-mode: difference;
@@ -163,7 +164,8 @@ body.compensate-for-scrollbar
     z-index: 99994;
     top: 0;
     left: 0;
-    /* Using without prefix would break IE11 */
+
+/* Using without prefix would break IE11 */
 
     display: none;
     overflow: auto;
@@ -394,12 +396,13 @@ body.compensate-for-scrollbar
 
 .fancybox-error p
 {
-    color: #444;
     font-size: 16px;
     line-height: 20px;
 
     margin: 0;
     padding: 0;
+
+    color: #444;
 }
 
 /* Buttons */
@@ -450,10 +453,9 @@ body.compensate-for-scrollbar
 .fancybox-button[disabled],
 .fancybox-button[disabled]:hover
 {
-    color: #888;
-
     cursor: default;
 
+    color: #888;
     outline: none;
 }
 
@@ -539,12 +541,12 @@ body.compensate-for-scrollbar
 
 .fancybox-slide--html .fancybox-close-small
 {
-    color: currentColor;
-
     top: 0;
     right: 0;
 
     padding: 10px;
+
+    color: currentColor;
 }
 
 .fancybox-slide--image.fancybox-is-scaling .fancybox-content
@@ -593,7 +595,6 @@ body.compensate-for-scrollbar
 /* Caption */
 .fancybox-caption
 {
-    color: #eee;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -606,6 +607,8 @@ body.compensate-for-scrollbar
     padding: 25px 44px 25px 44px;
 
     text-align: center;
+
+    color: #eee;
 }
 
 .fancybox-caption::before
@@ -631,16 +634,16 @@ body.compensate-for-scrollbar
 .fancybox-caption a:link,
 .fancybox-caption a:visited
 {
-    color: #ccc;
-
     text-decoration: none;
+
+    color: #ccc;
 }
 
 .fancybox-caption a:hover
 {
-    color: #fff;
-
     text-decoration: underline;
+
+    color: #fff;
 }
 
 /* Loading indicator */
@@ -848,8 +851,6 @@ body.compensate-for-scrollbar
     }
     .fancybox-slide--image .fancybox-close-small
     {
-        color: #f2f4f6;
-
         top: 0;
         right: 0;
 
@@ -858,6 +859,7 @@ body.compensate-for-scrollbar
         padding: 6px;
 
         opacity: 1;
+        color: #f2f4f6;
         background: #4e4e4e;
     }
 }
@@ -876,11 +878,12 @@ body.compensate-for-scrollbar
 
 .fancybox-share h1
 {
-    color: #222;
     font-size: 35px;
     font-weight: 700;
 
     margin: 0 0 20px 0;
+
+    color: #222;
 }
 
 .fancybox-share p
@@ -973,13 +976,13 @@ body.compensate-for-scrollbar
 
 .fancybox-share__input
 {
-    color: #5d5b5b;
     font-size: 14px;
 
     width: 100%;
     margin: 10px 0 0 0;
     padding: 10px 15px;
 
+    color: #5d5b5b;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     border-radius: 0;

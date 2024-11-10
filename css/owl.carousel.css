@@ -42,7 +42,8 @@
     position: relative;
 
     overflow: hidden;
-    /* fix for flashing background */
+
+/* fix for flashing background */
 
     -webkit-transform: translate3d(0px, 0px, 0px);
 }
@@ -263,8 +264,6 @@
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next
 {
-    color: #236630;
-
     position: absolute;
     z-index: 99;
     top: 0;
@@ -279,6 +278,7 @@
     text-indent: -9999px;
 
     opacity: 1;
+    color: #236630;
     border-radius: 50%;
     background: rgba(255,255,255,.2);
 }
@@ -437,6 +437,10 @@
     left: 50%;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
 
     width: auto;
     height: 37px;
@@ -447,11 +451,6 @@
 
     border-radius: 4px;
     background: rgba(255,255,255,.2);
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
 }
 
 .owl-dot
